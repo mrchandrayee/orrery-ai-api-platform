@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f3f6f7"><title>Orrery — AI API Platform</title><link rel="stylesheet" href="styles.css"></head>
+<body><div class="shell">
+<aside class="sidebar" id="sidebar">
+ <div class="brand"><span class="brand-mark">◉</span><span>Orrery<small>Northwind Labs</small></span><button id="collapse" class="collapse">◧</button></div>
+ <button class="workspace"><span class="workspace-icon">N</span><span>Northwind Labs<small>Scale plan · us-east</small></span><b>⌄</b></button>
+ <div class="nav-label">BUILD</div><nav>
+ <button class="nav active" data-page="overview"><span>▦</span>Overview</button>
+ <button class="nav" data-page="playground"><span>⌘</span>Playground</button>
+ <button class="nav" data-page="logs"><span>≋</span>Logs<i class="green-dot"></i></button>
+ </nav><div class="nav-label">MANAGE</div><nav>
+ <button class="nav" data-page="usage"><span>◷</span>Usage</button>
+ <button class="nav" data-page="keys"><span>⚿</span>API keys <i class="count">4</i></button>
+ <button class="nav" data-page="models"><span>⬡</span>Models</button>
+ </nav><div class="nav-label">ORGANISATION</div><nav>
+ <button class="nav" data-page="billing"><span>▤</span>Billing</button>
+ <button class="nav" data-page="team"><span>♧</span>Team</button>
+ <button class="nav" data-page="settings"><span>⚙</span>Settings</button>
+ </nav>
+ <div class="sidebar-bottom"><div class="usage-mini"><small>This month</small><b>$9,846</b><div class="bar"><i style="width:55%"></i></div><small>55% of $18,000 budget</small></div><button class="nav" data-page="docs"><span>▧</span>Docs</button><div class="user"><span class="user-avatar">NK</span><span><b>Nadia Kim</b><small>nadia@northwind.dev</small></span><span class="dots">···</span></div></div>
+</aside>
+<main class="main">
+<header class="topbar"><div class="crumb">Northwind Labs　›　<span id="crumb">Overview</span></div><div class="top-actions"><label class="global-search">⌕ <input id="globalSearch" placeholder="Search or jump to..."><kbd>⌘K</kbd></label><span class="degraded">● 1 model degraded</span><button class="icon-btn" id="theme">☾</button><button class="icon-btn" id="bell">♧</button><button class="avatar">NK</button></div></header>
+<section id="view"></section>
+</main></div>
+<div class="modal hidden" id="modal"><div class="modal-card"><button class="close" id="closeModal">×</button><div id="modalBody"></div></div></div><div class="toast" id="toast"></div><script src="app.js"></script></body></html>
